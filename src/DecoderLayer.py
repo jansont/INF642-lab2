@@ -1,5 +1,5 @@
 import tensorflow as tf
-from src.MultiHeadedAttention import *
+from src.MultiHeadAttention import *
 
 class DecoderLayer(tf.keras.layers.Layer):
   def __init__(self,  d_model, num_heads, dff, dropout = 0.0):

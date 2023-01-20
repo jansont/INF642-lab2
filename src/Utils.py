@@ -1,3 +1,6 @@
+import tensorflow as tf
+
+
 def encode(E1, E2, E3, E4, E5, E6, E7):
     return E1, E2, E3, E4, E5, E6, E7
 

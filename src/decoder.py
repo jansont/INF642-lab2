@@ -2,6 +2,8 @@ import tensorflow as tf
 from src.Utils import *
 from src.DecoderLayer import *
 from tensorflow.keras import layers
+from src.PositionalEncoding import positional_encoding
+
 
 class Decoder(tf.keras.layers.Layer):
   def __init__(self, target_vocab_size, num_layers, d_model, num_heads, dff, maximum_position_encoding, dropout):

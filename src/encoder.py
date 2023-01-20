@@ -2,7 +2,7 @@ import tensorflow as tf
 from src.Utils import *
 from src.EncoderLayer import *
 from tensorflow.keras import layers
-from src.PositionalEncoding import *
+from src.PositionalEncoding import positional_encoding
 
 
 class encoder(tf.keras.layers.Layer):

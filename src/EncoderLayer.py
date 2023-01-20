@@ -1,5 +1,5 @@
 import tensorflow as tf
-from MultiHeadedAttention import *
+from src.MultiHeadedAttention import *
 
 class EncoderLayer(tf.keras.layers.Layer):
   def __init__(self,  d_model, num_heads, dff, dropout):

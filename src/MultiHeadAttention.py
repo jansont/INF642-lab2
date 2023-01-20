@@ -1,3 +1,5 @@
+import tensorflow as tf
+
 class MultiHeadAttention(tf.keras.layers.Layer):
   def __init__(self, d_model = 512, num_heads = 8, causal=False, dropout=0.0):
     super(MultiHeadAttention, self).__init__()

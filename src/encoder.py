@@ -1,6 +1,6 @@
 import tensorflow as tf
-from Utils import *
-from EncoderLayer import *
+from src.Utils import *
+from src.EncoderLayer import *
 from tensorflow.keras import layers
 
 
